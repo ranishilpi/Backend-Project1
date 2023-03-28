@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#regbox{
+    height: 89px;
+    width: 420px;
+    font-size: 14pt;
+    padding-left: px;
+    margin-left: 15%;
+}
+
+#textboxid
+{
+    height: 300px;
+    width: 420px;
+    font-size :14pt;
+    text-align: left;
+    vertical-align: text-bottom;
+    margin-left: 15%;
+    padding-bottom: 165px;
+
+}
+
+#textboxid::placeholder {
+    text-align: left;
+    vertical-align: top;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+
+.body{
+    background: url("/static/Bg.jpg");
+    min-height: 50vh;
+    background-size: 100vw 190;
+    background-repeat: no-repe;
+    display: flex;
+    justify-content: center;  
+    /*align-items: center;*/
+}
+
+#board{
+    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    width: 90vmin;
+    height: 99vmin;
+    border: 2px solid black;
+}
+
+.check{
+    font-size: medium;
+}
+
+
